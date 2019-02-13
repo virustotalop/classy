@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage{hyperref}
+\usepackage{listings}
 \hypersetup{
 colorlinks=true
 }
@@ -14,7 +15,7 @@ colorlinks=true
 \tableofcontents
 \newpage
 
-\section{Hello world}
+\section{Hello World}
 \subsection{Setup}
 Programming can be done with your ordinary text-editor but many prefer to use an
 \href{https://wikipedia.org/wiki/Integrated_development_environment}{integrated environment or IDE} for short. A few commonly use environments are:
@@ -33,7 +34,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 \subsection{Writing Hello World}
 Now you are ready to explore the \emph{world of programming}. To start you will have
-to make a java class file. This process is a little bit different depending on the IDE you installed earlier. 
+to make a java class file. This process is a little bit different depending on the IDE you installed earlier.
+
+\subsubsection{Create a class Eclipse}
+
+
+
+\subsubsection{Creating a class Intellij Idea}
+
+\begin{lstlisting}[language=java]
+public static void main(String[] args)
+{
+   System.out.println("Hello World!");
+}
+\end{lstlisting}
+
+\section{If Then Else}
+
 
 
 \end{document}
