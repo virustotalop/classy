@@ -1,4 +1,4 @@
-# shittyjava
+# classyjava
 
 An attempt to write a half-decent textbook by an undergraduate student.
 
