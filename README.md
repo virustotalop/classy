@@ -17,5 +17,5 @@ and I wanted to see if I could even attempt to write a text book.
 
 * The book portion of classyjava is licensed under [CC0 1.0 Universal](/licenses/LICENSE-BOOK) and is dedicated to the public domain.
   * This includes the website portion that is generated from the markdown file.
-* All other website components besides query are licensed under the [Apache License, Version 2.0](/licenses/LICENSE-WEBSITE).
+* All other website components besides jquery are licensed under the [Apache License, Version 2.0](/licenses/LICENSE-WEBSITE).
 * JQuery is licensed under the [MIT license](https://jquery.org/license/).
