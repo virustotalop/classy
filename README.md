@@ -1,6 +1,6 @@
 # classyjava
 
-An attempt to write a half-decent textbook by an undergraduate student.
+An attempt to write a half-decent textbook by an graduate student.
 
 Written as an exercise to teach programming, specifically Java, from the ground up.
 
