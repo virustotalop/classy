@@ -1,0 +1,23 @@
+name: create pdf
+
+on:
+  push:
+    branches:
+    - "master"
+
+jobs:
+  build:
+    name: build pdf
+    runs-on: 18.04
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v1
+      - run: mkdir output
+      - uses: maxheld83/pandoc@v2
+        with:
+          args: "--standalone --output=output/classyjava.pdf classyjava.tex"
+      - uses: actions/upload-artifact@master
+        with:
+          name: output
+          path: output
