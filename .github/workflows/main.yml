@@ -1,14 +1,11 @@
 name: create pdf
 
-on:
-  push:
-    branches:
-    - "master"
+on: push
 
 jobs:
-  build:
+  pdf:
     name: build pdf
-    runs-on: 18.04
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v1
       - run: mkdir output
