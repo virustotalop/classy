@@ -1,5 +1,7 @@
 # classy
 
+**This project is now archived please see [this repo](https://github.com/virustotalop/textbook)**
+
 An attempt to write a half-decent textbook by an graduate student.
 
 Written as an exercise to teach programming, specifically Java, from the ground up.
